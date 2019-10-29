@@ -22,13 +22,15 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Import;
 
 import net.paragon.pmsp.config.BaseConfiguration;
+import net.paragon.pmsp.config.SecurityConfiguration;
 
 /**
  * @author rmpestano
  */
 @Import(value = { 
-		BaseConfiguration.class, 
-		SecurityConfig.class})
+		BaseConfiguration.class,
+		SecurityConfiguration.class
+		/*SecurityConfig.class*/})
 @SpringBootApplication
 public class AdminBootApplication /* implements WebMvcConfigurer */{
 	public static void main(String[] args) {

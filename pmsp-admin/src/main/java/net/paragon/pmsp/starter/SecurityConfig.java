@@ -12,7 +12,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
  * Created by aLeXcBa1990 on 24/11/2018.
  * 
  */
-
+/*
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	
@@ -47,3 +47,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	}
 
 }
+*/

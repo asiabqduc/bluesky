@@ -16,7 +16,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
  * 
  */
 
-@Component
+/*@Component
 public class CustomAuthenticationProvider implements AuthenticationProvider {
 	
 	@Override
@@ -50,3 +50,4 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
 	}
 	
 }
+*/
